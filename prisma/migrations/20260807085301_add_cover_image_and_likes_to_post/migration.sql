@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `post` ADD COLUMN `coverImage` VARCHAR(191) NULL,
+    ADD COLUMN `likesCount` INTEGER NOT NULL DEFAULT 0;

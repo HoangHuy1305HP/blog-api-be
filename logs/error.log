@@ -1,0 +1,1552 @@
+2026-07-31 10:47:48 [ERROR]: Expected ':' after property name in JSON at position 12 (line 2 column 11)
+2026-07-31 11:04:20 [ERROR]: 
+Invalid `prisma.user.create()` invocation in
+D:\study\BlogAPI\src\models\auth.model.ts:4:39
+
+  1 import prisma from "../config/db.js";
+  2 
+  3 export async function createUser(data:{email:string, name:string, password:string}){
+→ 4     const newUser = await prisma.user.create(
+Unique constraint failed on the constraint: `User_email_key`
+2026-07-31 11:04:33 [ERROR]: 
+Invalid `prisma.user.create()` invocation in
+D:\study\BlogAPI\src\models\auth.model.ts:4:39
+
+  1 import prisma from "../config/db.js";
+  2 
+  3 export async function createUser(data:{email:string, name:string, password:string}){
+→ 4     const newUser = await prisma.user.create(
+Unique constraint failed on the constraint: `User_email_key`
+2026-07-31 11:05:39 [ERROR]: 
+Invalid `prisma.user.create()` invocation in
+D:\study\BlogAPI\src\models\auth.model.ts:4:39
+
+  1 import prisma from "../config/db.js";
+  2 
+  3 export async function createUser(data:{email:string, name:string, password:string}){
+→ 4     const newUser = await prisma.user.create(
+Unique constraint failed on the constraint: `User_email_key`
+2026-07-31 11:16:08 [ERROR]: Expected double-quoted property name in JSON at position 42 (line 4 column 3)
+2026-08-05 14:28:02 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\BlogAPI\src\models\post.model.ts:43:39
+
+  40         }
+  41     }
+  42 }
+→ 43 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: " "
+             }
+           },
+           {
+             content: {
+               contains: " "
+             }
+           }
+         ]
+       },
+       skip: NaN,
+     + take: Int
+     })
+
+Argument `take` is missing.
+2026-08-05 14:28:02 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\BlogAPI\src\models\post.model.ts:43:39
+
+  40         }
+  41     }
+  42 }
+→ 43 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: " "
+             }
+           },
+           {
+             content: {
+               contains: " "
+             }
+           }
+         ]
+       },
+       skip: NaN,
+     + take: Int
+     })
+
+Argument `take` is missing.
+2026-08-05 14:28:03 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\BlogAPI\src\models\post.model.ts:43:39
+
+  40         }
+  41     }
+  42 }
+→ 43 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: " "
+             }
+           },
+           {
+             content: {
+               contains: " "
+             }
+           }
+         ]
+       },
+       skip: NaN,
+     + take: Int
+     })
+
+Argument `take` is missing.
+2026-08-05 14:28:03 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\BlogAPI\src\models\post.model.ts:43:39
+
+  40         }
+  41     }
+  42 }
+→ 43 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: " "
+             }
+           },
+           {
+             content: {
+               contains: " "
+             }
+           }
+         ]
+       },
+       skip: NaN,
+     + take: Int
+     })
+
+Argument `take` is missing.
+2026-08-05 14:28:09 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\BlogAPI\src\models\post.model.ts:43:39
+
+  40         }
+  41     }
+  42 }
+→ 43 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: " "
+             }
+           },
+           {
+             content: {
+               contains: " "
+             }
+           }
+         ]
+       },
+       skip: NaN,
+     + take: Int
+     })
+
+Argument `take` is missing.
+2026-08-05 14:28:09 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\BlogAPI\src\models\post.model.ts:43:39
+
+  40         }
+  41     }
+  42 }
+→ 43 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: " "
+             }
+           },
+           {
+             content: {
+               contains: " "
+             }
+           }
+         ]
+       },
+       skip: NaN,
+     + take: Int
+     })
+
+Argument `take` is missing.
+2026-08-05 14:28:10 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\BlogAPI\src\models\post.model.ts:43:39
+
+  40         }
+  41     }
+  42 }
+→ 43 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: " "
+             }
+           },
+           {
+             content: {
+               contains: " "
+             }
+           }
+         ]
+       },
+       skip: NaN,
+     + take: Int
+     })
+
+Argument `take` is missing.
+2026-08-05 14:28:10 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\BlogAPI\src\models\post.model.ts:43:39
+
+  40         }
+  41     }
+  42 }
+→ 43 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: " "
+             }
+           },
+           {
+             content: {
+               contains: " "
+             }
+           }
+         ]
+       },
+       skip: NaN,
+     + take: Int
+     })
+
+Argument `take` is missing.
+2026-08-05 14:28:39 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\BlogAPI\src\models\post.model.ts:43:39
+
+  40         }
+  41     }
+  42 }
+→ 43 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: " "
+             }
+           },
+           {
+             content: {
+               contains: " "
+             }
+           }
+         ]
+       },
+       skip: NaN,
+     + take: Int
+     })
+
+Argument `take` is missing.
+2026-08-05 14:29:38 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\BlogAPI\src\models\post.model.ts:43:39
+
+  40         }
+  41     }
+  42 }
+→ 43 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: " "
+             }
+           },
+           {
+             content: {
+               contains: " "
+             }
+           }
+         ]
+       },
+       skip: NaN,
+     + take: Int
+     })
+
+Argument `take` is missing.
+2026-08-05 14:29:38 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\BlogAPI\src\models\post.model.ts:43:39
+
+  40         }
+  41     }
+  42 }
+→ 43 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: " "
+             }
+           },
+           {
+             content: {
+               contains: " "
+             }
+           }
+         ]
+       },
+       skip: NaN,
+     + take: Int
+     })
+
+Argument `take` is missing.
+2026-08-07 16:00:11 [ERROR]: Expected property name or '}' in JSON at position 4 (line 2 column 3)
+2026-08-07 16:08:32 [ERROR]: Bad control character in string literal in JSON at position 756 (line 9 column 40)
+2026-08-07 16:08:37 [ERROR]: Bad control character in string literal in JSON at position 756 (line 9 column 40)
+2026-08-07 16:08:37 [ERROR]: Bad control character in string literal in JSON at position 756 (line 9 column 40)
+2026-08-07 16:10:17 [ERROR]: Expected ',' or '}' after property value in JSON at position 960 (line 15 column 4)
+2026-08-07 16:25:59 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:04 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:05 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:06 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:06 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:06 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:06 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:06 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:06 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:07 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:07 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:07 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:07 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:07 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:08 [ERROR]: Cannot read properties of undefined (reading 'map')
+2026-08-07 16:28:58 [ERROR]: 
+Invalid `prisma.post.update()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:84:43
+
+  81 }
+  82 
+  83 export async function update(id:string,title:string, slug:string,content:string,coverImage:string,likesCount:number,published:boolean,categoryId:string, tagIds:string[]) {
+→ 84     const updatedPost = await prisma.post.update(
+Unique constraint failed on the constraint: `Post_slug_key`
+2026-08-10 14:38:10 [ERROR]: Cannot destructure property 'id' of 'req.body' as it is undefined.
+2026-08-11 14:44:50 [ERROR]: 
+Invalid `prisma.user.update()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\auth.model.ts:19:40
+
+  16 }
+  17 
+  18 export async function updateRefreshToken(id:string, refreshToken: string | null) {
+→ 19     const newToken = await prisma.user.update(
+The provided value for the column is too long for the column's type. Column: refreshToken
+2026-08-11 14:45:34 [ERROR]: 
+Invalid `prisma.user.update()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\auth.model.ts:19:40
+
+  16 }
+  17 
+  18 export async function updateRefreshToken(id:string, refreshToken: string | null) {
+→ 19     const newToken = await prisma.user.update(
+The provided value for the column is too long for the column's type. Column: refreshToken
+2026-08-12 11:20:28 [ERROR]: 
+Invalid `prisma.user.update()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\auth.model.ts:19:40
+
+  16 }
+  17 
+  18 export async function updateRefreshToken(id:string, refreshToken: string | null) {
+→ 19     const newToken = await prisma.user.update(
+The provided value for the column is too long for the column's type. Column: refreshToken
+2026-08-12 11:20:45 [ERROR]: 
+Invalid `prisma.user.update()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\auth.model.ts:19:40
+
+  16 }
+  17 
+  18 export async function updateRefreshToken(id:string, refreshToken: string | null) {
+→ 19     const newToken = await prisma.user.update(
+The provided value for the column is too long for the column's type. Column: refreshToken
+2026-08-12 11:21:20 [ERROR]: 
+Invalid `prisma.user.update()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\auth.model.ts:19:40
+
+  16 }
+  17 
+  18 export async function updateRefreshToken(id:string, refreshToken: string | null) {
+→ 19     const newToken = await prisma.user.update(
+The provided value for the column is too long for the column's type. Column: refreshToken
+2026-08-12 11:25:32 [ERROR]: 
+Invalid `prisma.user.update()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\auth.model.ts:19:40
+
+  16 }
+  17 
+  18 export async function updateRefreshToken(id:string, refreshToken: string | null) {
+→ 19     const newToken = await prisma.user.update(
+The provided value for the column is too long for the column's type. Column: refreshToken
+2026-08-12 11:28:45 [ERROR]: 
+Invalid `prisma.user.update()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\auth.model.ts:19:40
+
+  16 }
+  17 
+  18 export async function updateRefreshToken(id:string, refreshToken: string | null) {
+→ 19     const newToken = await prisma.user.update(
+The provided value for the column is too long for the column's type. Column: refreshToken
+2026-08-12 11:28:46 [ERROR]: 
+Invalid `prisma.user.update()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\auth.model.ts:19:40
+
+  16 }
+  17 
+  18 export async function updateRefreshToken(id:string, refreshToken: string | null) {
+→ 19     const newToken = await prisma.user.update(
+The provided value for the column is too long for the column's type. Column: refreshToken
+2026-08-12 11:29:19 [ERROR]: 
+Invalid `prisma.user.update()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\auth.model.ts:19:40
+
+  16 }
+  17 
+  18 export async function updateRefreshToken(id:string, refreshToken: string | null) {
+→ 19     const newToken = await prisma.user.update(
+The provided value for the column is too long for the column's type. Column: refreshToken
+2026-08-14 16:43:17 [ERROR]: 
+Invalid `prisma.post.create()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:4:39
+
+  1 import prisma from "../config/db.js";
+  2 
+  3 export async function createNewPost(title:string, slug:string,content:string,published:boolean, authorId:string, categoryId:string, tagIds:string[],coverImage:string) {
+→ 4     const newPost = await prisma.post.create(
+The provided value for the column is too long for the column's type. Column: coverImage
+2026-08-14 16:44:34 [ERROR]: 
+Invalid `prisma.post.create()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:4:39
+
+  1 import prisma from "../config/db.js";
+  2 
+  3 export async function createNewPost(title:string, slug:string,content:string,published:boolean, authorId:string, categoryId:string, tagIds:string[],coverImage:string) {
+→ 4     const newPost = await prisma.post.create(
+The provided value for the column is too long for the column's type. Column: coverImage
+2026-08-17 13:49:49 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:117:42
+
+  114 }
+  115 
+  116 export async function findRecentPosts() {
+→ 117     const recentPost = await prisma.post.findMany({
+            take: 5,
+            orderBy: {
+              createdAt: "desc"
+            },
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  likes: true,
+                  ~~~~~
+          ?       tags?: true,
+          ?       like?: true
+                }
+              }
+            }
+          })
+
+Unknown field `likes` for select statement on model `PostCountOutputType`. Available options are marked with ?.
+2026-08-17 13:49:49 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:117:42
+
+  114 }
+  115 
+  116 export async function findRecentPosts() {
+→ 117     const recentPost = await prisma.post.findMany({
+            take: 5,
+            orderBy: {
+              createdAt: "desc"
+            },
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  likes: true,
+                  ~~~~~
+          ?       tags?: true,
+          ?       like?: true
+                }
+              }
+            }
+          })
+
+Unknown field `likes` for select statement on model `PostCountOutputType`. Available options are marked with ?.
+2026-08-17 13:50:12 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:117:42
+
+  114 }
+  115 
+  116 export async function findRecentPosts() {
+→ 117     const recentPost = await prisma.post.findMany({
+            take: 5,
+            orderBy: {
+              createdAt: "desc"
+            },
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  likes: true,
+                  ~~~~~
+          ?       tags?: true,
+          ?       like?: true
+                }
+              }
+            }
+          })
+
+Unknown field `likes` for select statement on model `PostCountOutputType`. Available options are marked with ?.
+2026-08-17 13:50:12 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:117:42
+
+  114 }
+  115 
+  116 export async function findRecentPosts() {
+→ 117     const recentPost = await prisma.post.findMany({
+            take: 5,
+            orderBy: {
+              createdAt: "desc"
+            },
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  likes: true,
+                  ~~~~~
+          ?       tags?: true,
+          ?       like?: true
+                }
+              }
+            }
+          })
+
+Unknown field `likes` for select statement on model `PostCountOutputType`. Available options are marked with ?.
+2026-08-17 13:50:45 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:117:42
+
+  114 }
+  115 
+  116 export async function findRecentPosts() {
+→ 117     const recentPost = await prisma.post.findMany({
+            take: 5,
+            orderBy: {
+              createdAt: "desc"
+            },
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  likes: true,
+                  ~~~~~
+          ?       tags?: true,
+          ?       like?: true
+                }
+              }
+            }
+          })
+
+Unknown field `likes` for select statement on model `PostCountOutputType`. Available options are marked with ?.
+2026-08-17 13:50:54 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:117:42
+
+  114 }
+  115 
+  116 export async function findRecentPosts() {
+→ 117     const recentPost = await prisma.post.findMany({
+            take: 5,
+            orderBy: {
+              createdAt: "desc"
+            },
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  likes: true,
+                  ~~~~~
+          ?       tags?: true,
+          ?       like?: true
+                }
+              }
+            }
+          })
+
+Unknown field `likes` for select statement on model `PostCountOutputType`. Available options are marked with ?.
+2026-08-21 07:16:06 [ERROR]: 
+Invalid `prisma.post.update()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:92:43
+
+  89 }
+  90 
+  91 export async function update(id:string,title:string, slug:string,content:string,coverImage:string,published:boolean,categoryId:string, tagIds:string[]) {
+→ 92     const updatedPost = await prisma.post.update(
+The provided value for the column is too long for the column's type. Column: coverImage
+2026-08-23 08:52:52 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:156:37
+
+  153 }
+  154 
+  155 export async function findPostBySearch(skip:number,take:number,search:string) {
+→ 156     const posts = await prisma.post.findMany({
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "th"
+                  }
+                },
+                {
+                  content: {
+                    contains: "th"
+                  }
+                }
+              ]
+            },
+            skip: 0,
+            take: "10",
+                  ~~~~
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  like: true
+                }
+              }
+            },
+            orderBy: {
+              createdAt: "desc"
+            }
+          })
+
+Argument `take`: Invalid value provided. Expected Int, provided String.
+2026-08-23 08:52:52 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:156:37
+
+  153 }
+  154 
+  155 export async function findPostBySearch(skip:number,take:number,search:string) {
+→ 156     const posts = await prisma.post.findMany({
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "th"
+                  }
+                },
+                {
+                  content: {
+                    contains: "th"
+                  }
+                }
+              ]
+            },
+            skip: 0,
+            take: "10",
+                  ~~~~
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  like: true
+                }
+              }
+            },
+            orderBy: {
+              createdAt: "desc"
+            }
+          })
+
+Argument `take`: Invalid value provided. Expected Int, provided String.
+2026-08-23 08:52:55 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:156:37
+
+  153 }
+  154 
+  155 export async function findPostBySearch(skip:number,take:number,search:string) {
+→ 156     const posts = await prisma.post.findMany({
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "th"
+                  }
+                },
+                {
+                  content: {
+                    contains: "th"
+                  }
+                }
+              ]
+            },
+            skip: 10,
+            take: "10",
+                  ~~~~
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  like: true
+                }
+              }
+            },
+            orderBy: {
+              createdAt: "desc"
+            }
+          })
+
+Argument `take`: Invalid value provided. Expected Int, provided String.
+2026-08-23 08:52:57 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:156:37
+
+  153 }
+  154 
+  155 export async function findPostBySearch(skip:number,take:number,search:string) {
+→ 156     const posts = await prisma.post.findMany({
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "th"
+                  }
+                },
+                {
+                  content: {
+                    contains: "th"
+                  }
+                }
+              ]
+            },
+            skip: 0,
+            take: "10",
+                  ~~~~
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  like: true
+                }
+              }
+            },
+            orderBy: {
+              createdAt: "desc"
+            }
+          })
+
+Argument `take`: Invalid value provided. Expected Int, provided String.
+2026-08-23 08:52:58 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:156:37
+
+  153 }
+  154 
+  155 export async function findPostBySearch(skip:number,take:number,search:string) {
+→ 156     const posts = await prisma.post.findMany({
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "thói"
+                  }
+                },
+                {
+                  content: {
+                    contains: "thói"
+                  }
+                }
+              ]
+            },
+            skip: 0,
+            take: "10",
+                  ~~~~
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  like: true
+                }
+              }
+            },
+            orderBy: {
+              createdAt: "desc"
+            }
+          })
+
+Argument `take`: Invalid value provided. Expected Int, provided String.
+2026-08-23 08:53:06 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:156:37
+
+  153 }
+  154 
+  155 export async function findPostBySearch(skip:number,take:number,search:string) {
+→ 156     const posts = await prisma.post.findMany({
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "Chuyến đi"
+                  }
+                },
+                {
+                  content: {
+                    contains: "Chuyến đi"
+                  }
+                }
+              ]
+            },
+            skip: 0,
+            take: "10",
+                  ~~~~
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  like: true
+                }
+              }
+            },
+            orderBy: {
+              createdAt: "desc"
+            }
+          })
+
+Argument `take`: Invalid value provided. Expected Int, provided String.
+2026-08-23 08:53:06 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:156:37
+
+  153 }
+  154 
+  155 export async function findPostBySearch(skip:number,take:number,search:string) {
+→ 156     const posts = await prisma.post.findMany({
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "Chuyến đi"
+                  }
+                },
+                {
+                  content: {
+                    contains: "Chuyến đi"
+                  }
+                }
+              ]
+            },
+            skip: 0,
+            take: "10",
+                  ~~~~
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  like: true
+                }
+              }
+            },
+            orderBy: {
+              createdAt: "desc"
+            }
+          })
+
+Argument `take`: Invalid value provided. Expected Int, provided String.
+2026-08-23 08:53:14 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:156:37
+
+  153 }
+  154 
+  155 export async function findPostBySearch(skip:number,take:number,search:string) {
+→ 156     const posts = await prisma.post.findMany({
+            where: {
+              OR: [
+                {
+                  title: {
+                    contains: "Chuyến đi"
+                  }
+                },
+                {
+                  content: {
+                    contains: "Chuyến đi"
+                  }
+                }
+              ]
+            },
+            skip: 0,
+            take: "10",
+                  ~~~~
+            include: {
+              author: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              category: {
+                select: {
+                  id: true,
+                  name: true
+                }
+              },
+              _count: {
+                select: {
+                  comments: true,
+                  like: true
+                }
+              }
+            },
+            orderBy: {
+              createdAt: "desc"
+            }
+          })
+
+Argument `take`: Invalid value provided. Expected Int, provided String.
+2026-08-24 10:00:40 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:49:39
+
+  46         }
+  47     }
+  48 }
+→ 49 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: ""
+             }
+           },
+           {
+             content: {
+               contains: ""
+             }
+           }
+         ]
+       },
+       take: 10,
+       include: {
+         author: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         category: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         _count: {
+           select: {
+             comments: true,
+             like: true
+           }
+         }
+       },
+     + skip: Int
+     })
+
+Argument `skip` is missing.
+2026-08-24 10:00:40 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:49:39
+
+  46         }
+  47     }
+  48 }
+→ 49 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: ""
+             }
+           },
+           {
+             content: {
+               contains: ""
+             }
+           }
+         ]
+       },
+       take: 10,
+       include: {
+         author: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         category: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         _count: {
+           select: {
+             comments: true,
+             like: true
+           }
+         }
+       },
+     + skip: Int
+     })
+
+Argument `skip` is missing.
+2026-08-24 10:00:46 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:49:39
+
+  46         }
+  47     }
+  48 }
+→ 49 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: ""
+             }
+           },
+           {
+             content: {
+               contains: ""
+             }
+           }
+         ]
+       },
+       take: 10,
+       include: {
+         author: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         category: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         _count: {
+           select: {
+             comments: true,
+             like: true
+           }
+         }
+       },
+     + skip: Int
+     })
+
+Argument `skip` is missing.
+2026-08-24 10:00:46 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:49:39
+
+  46         }
+  47     }
+  48 }
+→ 49 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: ""
+             }
+           },
+           {
+             content: {
+               contains: ""
+             }
+           }
+         ]
+       },
+       take: 10,
+       include: {
+         author: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         category: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         _count: {
+           select: {
+             comments: true,
+             like: true
+           }
+         }
+       },
+     + skip: Int
+     })
+
+Argument `skip` is missing.
+2026-08-24 10:00:58 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:49:39
+
+  46         }
+  47     }
+  48 }
+→ 49 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: ""
+             }
+           },
+           {
+             content: {
+               contains: ""
+             }
+           }
+         ]
+       },
+       take: 10,
+       include: {
+         author: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         category: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         _count: {
+           select: {
+             comments: true,
+             like: true
+           }
+         }
+       },
+     + skip: Int
+     })
+
+Argument `skip` is missing.
+2026-08-24 10:00:58 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:49:39
+
+  46         }
+  47     }
+  48 }
+→ 49 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: ""
+             }
+           },
+           {
+             content: {
+               contains: ""
+             }
+           }
+         ]
+       },
+       take: 10,
+       include: {
+         author: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         category: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         _count: {
+           select: {
+             comments: true,
+             like: true
+           }
+         }
+       },
+     + skip: Int
+     })
+
+Argument `skip` is missing.
+2026-08-24 10:02:22 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:49:39
+
+  46         }
+  47     }
+  48 }
+→ 49 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: ""
+             }
+           },
+           {
+             content: {
+               contains: ""
+             }
+           }
+         ]
+       },
+       take: 10,
+       include: {
+         author: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         category: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         _count: {
+           select: {
+             comments: true,
+             like: true
+           }
+         }
+       },
+     + skip: Int
+     })
+
+Argument `skip` is missing.
+2026-08-24 10:02:22 [ERROR]: 
+Invalid `prisma.post.findMany()` invocation in
+D:\study\DevToClone\server\BlogAPI\src\models\post.model.ts:49:39
+
+  46         }
+  47     }
+  48 }
+→ 49 const allPost = await prisma.post.findMany({
+       orderBy: {
+         createdAt: "desc"
+       },
+       where: {
+         categoryId: undefined,
+         OR: [
+           {
+             title: {
+               contains: ""
+             }
+           },
+           {
+             content: {
+               contains: ""
+             }
+           }
+         ]
+       },
+       take: 10,
+       include: {
+         author: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         category: {
+           select: {
+             id: true,
+             name: true
+           }
+         },
+         _count: {
+           select: {
+             comments: true,
+             like: true
+           }
+         }
+       },
+     + skip: Int
+     })
+
+Argument `skip` is missing.
