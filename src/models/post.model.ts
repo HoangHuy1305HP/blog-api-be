@@ -15,11 +15,13 @@ export async function createNewPost(title:string, slug:string,content:string,pub
               },
               coverImage
         },
+        
         include: {
                 author: { select: { id: true, name: true } },
                 category: { select: { id: true, name: true } },
                 _count: { select: { comments: true } },
                 },
+        
     })
     return newPost
 }
@@ -31,9 +33,10 @@ export async function findPostBySlug(slug:string) {
     return slugPost;
 }
 
-export async function findAllPost(skip:number, take:number, search:string,categoryId?:string,tagId?:string) {
+export async function findAllPost(skip:number, take:number, search:string,categoryId?:string,tagId?:string,published?:boolean) {
     const where:any = {
         categoryId,
+        published:true,
         OR: [{title:{contains:search}},
             {content:{contains:search}}
         ]

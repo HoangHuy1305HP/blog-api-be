@@ -50,13 +50,13 @@ export async function getAllPosts(req:Request, res:Response,next:NextFunction) {
         const search = (req.query.search as string | undefined) ?? "";
         const categoryId = req.query.categoryId as string | undefined;
         const tagId = req.query.tagId as string | undefined;
-
+        const published = req.query.published as boolean | undefined;
         const numPage = Number(page);
         const numLimit  = Number(limit);
 
         const skip = (numPage - 1)* numLimit;
 
-        const result = await findAllPost(skip,numLimit,search,categoryId,tagId);
+        const result = await findAllPost(skip,numLimit,search,categoryId,tagId,published);
 
         return res.status(200).json({message: ` Lấy dữ liệu thành công `,data:result})
     } catch (error) {
