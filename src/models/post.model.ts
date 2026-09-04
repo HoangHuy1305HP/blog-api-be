@@ -118,6 +118,7 @@ export async function deletePost(id:string) {
 
 export async function findRecentPosts() {
     const recentPost = await prisma.post.findMany({
+        where:{published:true},
         take:5,
         orderBy:{createdAt:"desc"},
         include: {
@@ -131,7 +132,7 @@ export async function findRecentPosts() {
 
 export async function findRecentPostsByUser(authorId:string) {
     const recentPosts = await prisma.post.findMany({
-        where:{authorId,published:false},
+        where:{authorId,published:true},
         orderBy:{createdAt:"desc"},
         take:5,
         include:{
