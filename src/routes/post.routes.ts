@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { createPost, getAllPosts,getPostById,updatePost,deletePostById,getRecentPosts, getRecentPostsByUser, getPostsBySearch } from "../controllers/post.controller.js";
+import { createPost, getAllPosts,getPostById,updatePost,deletePostById,getRecentPosts, getRecentPostsByUser, getPostsBySearch} from "../controllers/post.controller.js";
 import { authenticate } from "../middlewares/authenticate.middleware.js";
 import { likePost, unlikePost } from "../controllers/like.controller.js";
 import { optionalAuthenticate } from "../middlewares/optionalAuthenticate.js";

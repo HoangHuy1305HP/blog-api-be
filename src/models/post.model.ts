@@ -131,7 +131,7 @@ export async function findRecentPosts() {
 
 export async function findRecentPostsByUser(authorId:string) {
     const recentPosts = await prisma.post.findMany({
-        where:{authorId},
+        where:{authorId,published:true},
         orderBy:{createdAt:"desc"},
         take:5,
         include:{
@@ -154,6 +154,7 @@ export async function findPostByUser(authorId:string) {
     })
     return posts;
 }
+
 
 export async function findPostBySearch(skip:number,take:number,search:string) {
     const posts = await prisma.post.findMany({
